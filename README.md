@@ -6,4 +6,4 @@ This is a personal portfolio and showcase website for my projects.
 - HTML5
 - CSS3
 - Vanilla JS (ES5)
-- Bootstrap 3
+- Bootstrap 4
