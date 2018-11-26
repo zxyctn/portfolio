@@ -7,6 +7,18 @@ nav {
     background: rgba(26,35,126 ,1);
 }
 
+#cardSection {
+    background: rgba(66,165,245 ,1);
+}
+
+.card-img-top {
+    filter: invert(1);
+}
+
+.card {
+    border: 1px solid white;
+}
+
 .navbar-toggler:focus {
     outline-style: none;
 }
