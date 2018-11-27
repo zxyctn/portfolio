@@ -1,172 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
     <title>Portfolio</title>
 </head>
-<body id="body">
-    <nav class="navbar navbar-expand-lg navbar-dark flex-column flex-md-row" id="navb">
-        <div class="container">
-            <button id="exp" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="nav">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="port.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="CV.pdf" download>Resume</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+
+<body class="bg-dark">
+    <nav id="mainNav" class="navbar navbar-expand navbar-dark px-3 text-center justify-content-around py-0">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link active">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+            </li>
+        </ul>
     </nav>
 
-    <div class="container" id="top">
-        <div class="col-lg-12 card mt-3 mb-3 col-12" id="port">
-            <div class="row mt-3 mb-3">
-                <div class="col-lg-3 col-md-5 col-sm-5 col-xs-12 col-xl-3">
-                    <div class="card marg-port" id="port2">
-                        <img class="card-img-top" src="img/patatap.png">
-                        <div class="card-body">
-                            <h5 class="card-title">Patatap Clone</h5>
-                            <p class="card-text">Clone of the <a class="card-link" href="http://patatap.com/" id="link">Patatap</a> app</p>
-                            <a href="game/index.html" id="explore1"><button type="button" class="btn btn-outline-dark">Explore</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div id="divider"></div>
-                <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 col-xl-8">
-                    <div class="p-3" style="line-height: 1.4; background-color: transparent; border: none; text-align: left">
-                        <h3 class="h3">Patatap Clone</h3>
-                        <p>A clone project of the <a class="card-link" href="http://patatap.com" id="link">Patatap</a> app.</p>
-                        <h4 class="h4">Used technologies: </h4>
-                        <div class="container">
-                            <div class="pb-3" style="list-style: none;">
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                                <li>Vanilla JS</li>
-                                <li>Paper JS</li>
-                                <li>Howler JS</li>
-                                <li>Bootstrap 3</li>
-                            </div>
-                        </div>
-                        <a href="https://github.com/zxyctn/PatatapClone"><button type="button" class="btn btn-outline-info">GitHub</button></a>
-                    </div>
+    <section class="container-fluid p-5 text-white" id="patatapSec">
+        <div class="row project justify-content-center justify-content-sm-start">
+            <div class="p-0 p-sm-1 justify-content-center align-self-center" style="width: 17rem">
+                <img class="card-img-top just" src="img/patatap.png">
+                <div class="card-body">
+                    <h5 class="card-title">Patatap Clone</h5>
+                    <p class="card-text">Clone of the Patatap app</p>
+                    <a class="btn btn-outline-light" href="game/index.html">Explore</a>
                 </div>
             </div>
-        </div>
-
-        <div class="card mt-3 mb-3 col-12" id="port">
-            <div class="row mt-3 mb-3">
-                <div class="col-lg-3 col-md-5 col-sm-5 col-xs-12 col-xl-3">
-                    <div class="card marg-port" id="port2">
-                        <img class="card-img-top" src="img/rgb.png">
-                        <div class="card-body">
-                            <h5 class="card-title">RGB Guessing Game</h5>
-                            <p class="card-text">An interactive game to guess the random RGB encoded color</p>
-                            <a href="rgb/index.html" id="explore1"><button type="button" class="btn btn-outline-dark">Explore</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div id="divider"></div>
-                <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 col-xl-8">
-                    <div class="p-3" style="line-height: 1.4; background-color: transparent; border: none; text-align: left">
-                        <h3 class="h3">RGB Guessing Game</h3>
-                        <p>A JavaScript based interactive game to guess the randomly generated RGB encoded color.</p>
-                        <h4 class="h4">Used technologies: </h4>
-                        <div class="container">
-                            <div class="pb-3" style="list-style: none;">
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                                <li>Vanilla JS</li>
-                                <li>Bootstrap 3</li>
-                            </div>
-                        </div>
-                        <a href="https://github.com/zxyctn/RGB"><button type="button" class="btn btn-outline-info">GitHub</button></a>
-                    </div>
-                </div>
+            <div class="divider my-sm-4 d-none d-sm-block"></div>
+            <div class="p-4 p-lg-5">
+                <h1 class="display-5 d-none d-lg-block">Patatap Clone</h1>
+                <h1 class="h2 d-none d-sm-block d-lg-none">Patatap Clone</h1>
+                <p class="d-none d-sm-block d-lg-none">A clone project of the Patatap app.</p>
+                <p class="d-none d-lg-block lead">A clone project of the Patatap app.</p>
+                <h2 class="h3">Used technologies:</h2>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Vanilla JS</li>
+                    <li>Paper JS</li>
+                    <li>Howler JS</li>
+                    <li>Bootstrap 3</li>
+                </ul>
+                <a class="btn btn-outline-light" href="#">GitHub</a>
             </div>
         </div>
+    </section>
 
-        <div class="card mt-3 mb-3 col-12" id="port">
-            <div class="row mt-3 mb-3">
-                <div class="col-lg-3 col-md-5 col-sm-5 col-xs-12 col-xl-3">
-                    <div class="card marg-port" id="port2">
-                        <img class="card-img-top" src="img/photoblog2.png">
-                        <div class="card-body">
-                            <h5 class="card-title">Bootstrap PhotoBlog</h5>
-                            <p class="card-text">A simple responsive photo blog template based on Bootstrap and DOM</p>
-                            <a href="photoBlog2/index.html" id="explore1"><button type="button" class="btn btn-outline-dark">Explore</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div id="divider"></div>
-                <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 col-xl-8">
-                    <div class="p-3" style="line-height: 1.4; background-color: transparent; border: none; text-align: left">
-                        <h3 class="h3">Bootstrap PhotoBlog</h3>
-                        <p>Simple photo blog template based on Bootstrap</p>
-                        <h4 class="h4">Used technologies: </h4>
-                        <div class="container">
-                            <div class="pb-3" style="list-style: none;">
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                                <li>Bootstrap 3</li>
-                            </div>
-                        </div>
-                        <a href="https://github.com/zxyctn/photoblogRes"><button type="button" class="btn btn-outline-info">GitHub</button></a>
-                    </div>
+    <section class="container-fluid p-5 text-white" id="purrSec">
+        <div class="row project justify-content-center justify-content-sm-start">
+            <div class="p-0 p-sm-1 justify-content-center align-self-center" style="width: 17rem">
+                <img class="card-img-top just" src="img/patatap.png">
+                <div class="card-body">
+                    <h5 class="card-title">Patatap Clone</h5>
+                    <p class="card-text">Clone of the Patatap app</p>
+                    <a class="btn btn-outline-light" href="game/index.html">Explore</a>
                 </div>
             </div>
-        </div>
-
-        <div class="card mt-3 mb-3 col-12" id="port">
-            <div class="row mt-3 mb-3">
-                <div class="col-lg-3 col-md-5 col-sm-5 col-xs-12 col-xl-3">
-                    <div class="card marg-port" id="port2">
-                        <img class="card-img-top" src="img/purr.png">
-                        <div class="card-body">
-                            <h5 class="card-title">Purrfect Match</h5>
-                            <p class="card-text">Responsive website template based on Bootstrap and DOM</p>
-                            <a href="purr/index.html" id="explore1"><button type="button" class="btn btn-outline-dark">Explore</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div id="divider"></div>
-                <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 col-xl-8">
-                    <div class="p-3" style="line-height: 1.4; background-color: transparent; border: none; text-align: left">
-                        <h3 class="h3">Purrfect Match</h3>
-                        <p>Minimalistic and simple product showcase website</p>
-                        <h4 class="h4">Used technologies: </h4>
-                        <div class="container">
-                            <div class="pb-3" style="list-style: none;">
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                                <li>Bootstrap 3</li>
-                            </div>
-                        </div>
-                        <a href="https://github.com/zxyctn/PurrfectMatch"><button type="button" class="btn btn-outline-info">GitHub</button></a>
-                    </div>
-                </div>
+            <div class="divider my-sm-4 d-none d-sm-block"></div>
+            <div class="p-4 p-lg-5">
+                <h1 class="display-5 d-none d-lg-block">Patatap Clone</h1>
+                <h1 class="h2 d-none d-sm-block d-lg-none">Patatap Clone</h1>
+                <p class="d-none d-sm-block d-lg-none">A clone project of the Patatap app.</p>
+                <p class="d-none d-lg-block lead">A clone project of the Patatap app.</p>
+                <h2 class="h3">Used technologies:</h2>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Vanilla JS</li>
+                    <li>Paper JS</li>
+                    <li>Howler JS</li>
+                    <li>Bootstrap 3</li>
+                </ul>
+                <a class="btn btn-outline-light" href="#">GitHub</a>
             </div>
         </div>
+    </section>
 
-    </div>
+    <section class="container-fluid p-5 text-white" id="rgbSec">
+        <div class="row project justify-content-center justify-content-sm-start">
+            <div class="p-0 p-sm-1 justify-content-center align-self-center" style="width: 17rem">
+                <img class="card-img-top just" src="img/patatap.png">
+                <div class="card-body">
+                    <h5 class="card-title">Patatap Clone</h5>
+                    <p class="card-text">Clone of the Patatap app</p>
+                    <a class="btn btn-outline-light" href="game/index.html">Explore</a>
+                </div>
+            </div>
+            <div class="divider my-sm-4 d-none d-sm-block"></div>
+            <div class="p-4 p-lg-5">
+                <h1 class="display-5 d-none d-lg-block">Patatap Clone</h1>
+                <h1 class="h3 d-none d-sm-block d-lg-none">Patatap Clone</h1>
+                <p class="d-none d-sm-block d-lg-none">A clone project of the Patatap app.</p>
+                <p class="d-none d-lg-block lead">A clone project of the Patatap app.</p>
+                <h2 class="h4">Used technologies:</h2>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Vanilla JS</li>
+                    <li>Paper JS</li>
+                    <li>Howler JS</li>
+                    <li>Bootstrap 3</li>
+                </ul>
+                <a class="btn btn-outline-light" href="#">GitHub</a>
+            </div>
+        </div>
+    </section>
 
-    <button id="scroll" href="#top" src="#top">xmm</button>
+    <footer class=" text-white p-4">
+        <div class="row justify-content-center justify-content-sm-between align-items-center px-4">
+            <p class="text-muted pt-3 order-2 text-center">Copyright © 2018 Ibrahim Mammadov</p>
+            <div class="order-1">
+                <a href="https://github.com/zxyctn">
+                    <img src="img/github.png" alt="GitHub" style="width: 2rem; filter: invert(1)">
+                </a>
+                <a class="mx-3" href="https://www.linkedin.com/in/zxyctn/">
+                    <img src="img/linkedin.png" alt="Linkedin" style="width: 2rem;">
+                </a>
+            </div>
+        </div>
+    </footer>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

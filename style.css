@@ -11,6 +11,29 @@ nav {
     background: rgba(66,165,245 ,1);
 }
 
+#patatapSec {
+    background: rgba(41,182,246 ,1);
+}
+
+#purrSec {
+    background: rgba(76,175,80 ,1);
+}
+
+#rgbSec {
+    background: rgba(103,58,183 ,1);
+}
+
+.divider {
+    height: inherit;
+    width: 0.2rem;
+    background: white;
+}
+
+.project {
+    border: 1px solid white;
+    border-radius: 0.5rem;
+}
+
 .card-img-top {
     filter: invert(1);
 }
