@@ -15,11 +15,15 @@ nav {
     background: rgba(41,182,246 ,1);
 }
 
-#purrSec {
-    background: rgba(76,175,80 ,1);
+#rgbSec {
+    background: rgb(210,37,26);
 }
 
-#rgbSec {
+#purrSec {
+    background: rgba(255,152,0 ,1);
+}
+
+#blogSec {
     background: rgba(103,58,183 ,1);
 }
 
