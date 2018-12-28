@@ -3,8 +3,12 @@ nav {
     font-size: 1.25rem;
 }
 
+#indexNav {
+    background: rgb(0, 66, 117);
+}
+
 #mainNav {
-    background: rgba(26,35,126 ,1);
+    background: rgba(0,77,64 ,1);
 }
 
 #cardSection {
@@ -12,7 +16,7 @@ nav {
 }
 
 #patatapSec {
-    background: rgba(41,182,246 ,1);
+    background: rgba(0,137,123 ,1);
 }
 
 #rgbSec {
@@ -20,11 +24,15 @@ nav {
 }
 
 #purrSec {
-    background: rgba(255,152,0 ,1);
+    background: rgba(136,14,79 ,1);
 }
 
 #blogSec {
     background: rgba(103,58,183 ,1);
+}
+
+#indexSec {
+    background: rgba(25,118,210 ,1);
 }
 
 .divider {
