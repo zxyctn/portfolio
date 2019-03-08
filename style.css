@@ -16,19 +16,23 @@ nav {
 }
 
 #patatapSec {
-    background: rgba(96,125,139 ,1);
+    background: rgba(120,144,156 ,1);
 }
 
 #rgbSec {
+    background: rgba(96,125,139 ,1);
+}
+
+#blogSec {
     background: rgba(84,110,122 ,1);
 }
 
 #purrSec {
-    background: rgba(55,71,79 ,1);
+    background: rgba(69,90,100 ,1);
 }
 
-#blogSec {
-    background: rgba(69,90,100 ,1);
+#currencySec {
+    background: rgba(55,71,79 ,1);
 }
 
 #indexSec {
