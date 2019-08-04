@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+    background: #e96443;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #904e95, #e96443);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #904e95, #e96443);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.jumbotron {
+    height: 45rem;
+    margin-top: 3%;
+    border-radius: 15px 15px 15px 15px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.form-control {
+    border-radius: 10px 10px 10px 10px;
+}
+
+.nav-link {
+    color: #ffff;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.nav-link:hover {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.nav-item {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.nav-item.nav-link.active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#map {
+    height: 20rem;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#map2 {
+    height: 20rem;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#map3 {
+    height: 20rem;
+    border-radius: 10px 10px 10px 10px;
+}
