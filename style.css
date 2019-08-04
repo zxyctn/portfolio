@@ -67,7 +67,13 @@ code {
 }
 
 .card {
+    border: 1px solid white;
+}
+
+.card-c {
+    border: 1px solid white;
     border-radius: 0 0 0.5rem 0.5rem;
+    background: white;
 }
 
 .navbar-toggler:focus {
