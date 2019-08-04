@@ -3,6 +3,10 @@ nav {
     font-size: 1.25rem;
 }
 
+code {
+    font-size: 12pt;
+}
+
 #indexNav {
     background: rgb(0, 66, 117);
 }
@@ -63,7 +67,7 @@ nav {
 }
 
 .card {
-    border: 1px solid white;
+    border-radius: 0 0 0.5rem 0.5rem;
 }
 
 .navbar-toggler:focus {
