@@ -8,4 +8,4 @@ This is a personal portfolio and showcase website for my projects.
 - Vanilla JS (ES5)
 - Bootstrap 4
 
-[Check it out](http://ibrahim.mammadov.ug.bilkent.edu.tr/)
+[Check it out](https://zxyctn.github.io/portfolio/)
