@@ -56,7 +56,7 @@ class InfoCard extends StatelessWidget {
                           ),
                     ),
                     Text(
-                      'Passau',
+                      'Weimar',
                       style: Theme.of(context).textTheme.button.copyWith(
                             fontWeight: FontWeight.w400,
                             fontSize: 30 / 1080 * _height,
@@ -151,7 +151,7 @@ class InfoCard extends StatelessWidget {
                           ),
                     ),
                     Text(
-                      'Passau',
+                      'Weimar',
                       style: Theme.of(context).textTheme.button.copyWith(
                             fontWeight: FontWeight.w400,
                             fontSize: 30 / 1080 * _height,
