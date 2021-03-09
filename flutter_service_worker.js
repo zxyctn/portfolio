@@ -9,7 +9,7 @@ const RESOURCES = {
 "assets/assets/fonts/Didot_Italic.otf": "190f61471c95effb5117cef8df9f1eaf",
 "assets/assets/images/github.png": "b69845b771fe9d5f08627a37abbbe8ca",
 "assets/assets/images/linkedin.png": "fbd87a1182c9c23fd305c6f0744794d4",
-"assets/assets/images/profile.jpeg": "542fe3ce1b513ecf2266abd7bbfa0249",
+"assets/assets/images/profile.jpg": "542fe3ce1b513ecf2266abd7bbfa0249",
 "assets/FontManifest.json": "8e7ce408b30a211fb4b9882be26cf9d1",
 "assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
 "assets/NOTICES": "8b7ed4c18ab529a4180e174aa1eaaf83",

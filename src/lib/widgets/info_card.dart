@@ -26,7 +26,7 @@ class InfoCard extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   CircleAvatar(
-                    backgroundImage: AssetImage('assets/images/profile.jpeg'),
+                    backgroundImage: AssetImage('assets/images/profile.jpg'),
                     backgroundColor: Color.fromRGBO(110, 220, 255, 1),
                     radius: 0.1 * _height,
                   ),
@@ -123,7 +123,7 @@ class InfoCard extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   CircleAvatar(
-                    backgroundImage: AssetImage('assets/images/profile.jpeg'),
+                    backgroundImage: AssetImage('assets/images/profile.jpg'),
                     backgroundColor: Color.fromRGBO(110, 220, 255, 1),
                     radius: 0.08 * _height,
                   ),

@@ -40808,7 +40808,7 @@ break
 case 4:throw H.c("Could not launch "+a)
 case 3:return P.ad(null,r)}})
 return P.ae($async$f7,r)},
-R:function(a){var s,r,q=this,p=null,o="assets/images/profile.jpeg",n="Ibrahim Mammadov",m="Master's student at",l="University of ",k="assets/images/linkedin.png",j="assets/images/github.png",i=F.bz(a,!1).a.a,h=F.bz(a,!1).a.b,g=new P.aV(20,20),f=P.b6(110,220,255,1),e=t.t,d=0.010416666666666666*i
+R:function(a){var s,r,q=this,p=null,o="assets/images/profile.jpg",n="Ibrahim Mammadov",m="Master's student at",l="University of ",k="assets/images/linkedin.png",j="assets/images/github.png",i=F.bz(a,!1).a.a,h=F.bz(a,!1).a.b,g=new P.aV(20,20),f=P.b6(110,220,255,1),e=t.t,d=0.010416666666666666*i
 if(i>700){s=0.04*h
 r=0.027777777777777776*h
 e=T.cy(H.b([K.u6(P.b6(110,220,255,1),new L.is(o,p,p),0.1*h),T.iC(H.b([L.cg(n,K.aG(a).y2.ch.yf(s),p),L.cg(m,K.aG(a).y2.ch.lP(r,C.t),p),T.cy(H.b([L.cg(l,K.aG(a).y2.ch.lP(r,C.t),p),L.cg("Weimar",K.aG(a).y2.ch.lQ(P.b6(119,0,255,1),r,C.t),p)],e),C.a3,C.J),new T.bn(p,0.018518518518518517*h,p,p),M.aO(p,T.cy(H.b([M.aO(p,N.nX(U.vG(k,p,C.cW,s,s),C.hl,new D.Is(q),new V.av(0,0,0,0),C.hX),p,p,p,p,p,p,p,p,s),new T.bn(d,p,p,p),M.aO(p,N.nX(U.vG(j,p,C.cW,s,s),C.hl,new D.It(q),new V.av(0,0,0,0),C.hX),p,p,p,p,p,p,p,p,s)],e),C.a3,C.J),p,p,p,p,p,p,p,p,p)],e),C.az,C.jh)],e),C.a3,C.ls)}else{s=0.04*h
