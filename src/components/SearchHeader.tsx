@@ -17,7 +17,7 @@ const SearchHeader = ({ q, handleSubmit }: SearchProps) => {
           />
         </div>
 
-        <span className='border-b-4 border-primary text-2xl text-primary pt-20 w-min px-1'>
+        <span className='border-b-4 border-primary text-2xl text-primary font-bold pt-20 w-min px-1'>
           All
         </span>
       </div>
