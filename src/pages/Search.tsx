@@ -1,17 +1,18 @@
 import SearchBar from '../components/SearchBar';
 import NotFound from './NotFound';
 import type { SearchProps } from '../types';
+import Portfolio from './Portfolio';
 
 const Search = ({ q, handleSubmit }: SearchProps) => {
   return (
     <div className='relative'>
-      <div className='container'>
-        <div className='flex gap-16 items-start p-10 px-20 h-full pb-0'>
-          <h1 className='font-bold text-center transform-all duration-1000 text-6xl md:text-4xl text-primary mt-1'>
-            Hello
-          </h1>
-          <div className='grid h-full'>
-            <div className='z-50 absolute'>
+      <div className='w-screen'>
+        <div className='items-start p-12 h-full pb-0'>
+          <div className='sm:flex'>
+            <h1 className='font-bold text-center transform-all duration-1000 text-4xl text-primary mt-1'>
+              Hello
+            </h1>
+            <div className='z-50 absolute ml-40'>
               <SearchBar
                 hideButtons={true}
                 hideIcon={true}
@@ -19,19 +20,25 @@ const Search = ({ q, handleSubmit }: SearchProps) => {
                 handleSubmit={handleSubmit}
               />
             </div>
+          </div>
 
-            <span className='border-b-4 border-primary text-2xl text-primary pt-20 w-min px-1 mt-1'>
+          <div className='grid h-full xl:first-letter xl:ml-40'>
+            <span className='border-b-4 border-primary text-2xl text-primary xl:pt-12 pt-8 w-min px-1 mt-1'>
               All
             </span>
+            <hr className='stroke-primary border-primary w-screen xl:-ml-52 -ml-12 top-40' />
 
-            <div className='pt-5'>
-              {' '}
-              <NotFound q={q!} />
+            <div className='max-w-[1600px]'>
+              {q !== 'Ibrahim Mammadov' ? (
+                <NotFound q={q!} handleSubmit={handleSubmit} />
+              ) : (
+                <Portfolio />
+              )}
             </div>
           </div>
         </div>
-      </div>{' '}
-      <hr className='stroke-primary border-primary fixed h-full w-full top-40' />
+      </div>
+      
     </div>
   );
 };
