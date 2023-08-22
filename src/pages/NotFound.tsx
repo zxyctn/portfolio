@@ -1,14 +1,21 @@
-const NotFound = ({ q }: { q: string }) => {
+import type { SearchProps } from '../types';
+
+const NotFound = ({ q, handleSubmit }: SearchProps) => {
   return (
-    <div className='grid gap-10 text-primary text-xl cursor-auto'>
-      <div className=''>About 0 results</div>
+    <div className='grid gap-10 text-primary text-xl cursor-auto py-5'>
+      <p className='text-base'>About 0 results</p>
       <div className='grid gap-0'>
         <div>
           Showing results for <span className='font-bold italic'>{q}</span>
         </div>
         <div className=''>
           Search instead for{' '}
-          <span className='text-accent'>Ibrahim Mammadov</span>
+          <span
+            className='text-accent link'
+            onClick={() => handleSubmit('Ibrahim Mammadov')}
+          >
+            Ibrahim Mammadov
+          </span>
         </div>
       </div>
       <div className='grid gap-0'>
