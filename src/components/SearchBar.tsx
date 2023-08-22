@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Search, X } from 'react-bootstrap-icons';
 
 import type { SearchBarProps } from '../types';
@@ -12,6 +12,11 @@ const SearchBar = ({
   const [search, setSearch] = useState(value);
   const [focus, setFocus] = useState(false);
   const [hover, setHover] = useState(false);
+
+  useEffect(() => {
+    setSearch(value);
+  }, [value])
+  
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearch(e.target.value);
