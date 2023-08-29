@@ -15,8 +15,7 @@ const SearchBar = ({
 
   useEffect(() => {
     setSearch(value);
-  }, [value])
-  
+  }, [value]);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearch(e.target.value);
@@ -68,11 +67,11 @@ const SearchBar = ({
         {hideIcon && (
           <div className='flex absolute gap-1 right-4 top-2 items-center'>
             <button onClick={() => setSearch('')}>
-              <X color='#3B4D8D' size={32} />
+              <X color='#3B4D8D' width={32} height={32} className='' />
             </button>
-            <span className='text-xl mb-1.5 text-primary'>|</span>
+            <div className='border-l border-primary h-6'></div>
             <button onClick={handleSearch}>
-              <Search className='mx-1.5' color='#3B4D8D' size={16} />
+              <Search className='mx-2' color='#3B4D8D' size={16} />
             </button>
           </div>
         )}
