@@ -3,23 +3,10 @@ import Link from './Link';
 
 const About = () => {
   return (
-    <div className='grid grid-cols-2 gap-20 pt-16 place-content-between'>
-      <div className='grid gap-10'>
-        <Link
-          href='https://www.github.com/zxyctn'
-          platform='GitHub'
-          text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        />
-        <Link
-          href='https://www.linkedin.com/in/zxyctn/'
-          platform='LinkedIn'
-          text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        />
-      </div>
-
-      <div className='flex gap-16'>
-        <div className='border-l border-primary -my-5'></div>
-        <div className='grid gap-5'>
+    <div className='grid md:grid-cols-2 lg:gap-20 gap-20 sm:gap-10 py-16 lg:place-content-between place-content-center'>
+      <div className='flex lg:gap-16 order-1 md:order-2'>
+        <div className='border-l border-primary -my-5 hidden md:block'></div>
+        <div className='grid gap-5 md:pl-10 lg:pl-0'>
           <h1 className='text-3xl font-semibold'>About</h1>
           <p className='max-w-[500px]'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -44,6 +31,18 @@ const About = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className='grid gap-10 md:order-1 order-2'>
+        <Link
+          href='https://www.github.com/zxyctn'
+          platform='GitHub'
+          text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        />
+        <Link
+          href='https://www.linkedin.com/in/zxyctn/'
+          platform='LinkedIn'
+          text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        />
       </div>
     </div>
   );
