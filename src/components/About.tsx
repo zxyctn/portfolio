@@ -5,10 +5,10 @@ const About = () => {
   return (
     <div className='grid md:grid-cols-2 lg:gap-20 gap-20 sm:gap-10 py-16 lg:place-content-between place-content-center'>
       <div className='flex lg:gap-16 order-1 md:order-2'>
-        <div className='border-l border-primary -my-5 hidden md:block'></div>
+        <div className='border-l border-primary/50 -my-5 hidden md:block'></div>
         <div className='grid gap-5 md:pl-10 lg:pl-0'>
           <h1 className='text-3xl font-semibold'>About</h1>
-          <p className='max-w-[500px]'>
+          <p className='max-w-[500px] text-primary/75'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut

@@ -27,7 +27,7 @@ const SearchBar = ({
 
   return (
     <div
-      className={`transition-all relative grid gap-5 border-2 border-primary rounded-3xl ${
+      className={`transition-all relative grid gap-5 border-2 border-primary/50 rounded-3xl ${
         focus ? 'h-full pb-5' : 'h-[52px]'
       } ${hover || focus ? 'dark:bg-neutral shadow-lg' : ''}`}
       tabIndex={-1}
@@ -61,17 +61,17 @@ const SearchBar = ({
         </span>
 
         {!hideIcon && (
-          <Search className='absolute left-4 top-4' color='#3B4D8D' size={16} />
+          <Search className='absolute left-4 top-4 text-primary' size={16} />
         )}
 
         {hideIcon && (
           <div className='flex absolute gap-1 right-4 top-2 items-center'>
             <button onClick={() => setSearch('')}>
-              <X color='#3B4D8D' width={32} height={32} className='' />
+              <X width={32} height={32} className='text-primary' />
             </button>
             <div className='border-l border-primary h-6'></div>
             <button onClick={handleSearch}>
-              <Search className='mx-2' color='#3B4D8D' size={16} />
+              <Search className='mx-2 text-primary' size={16} />
             </button>
           </div>
         )}

@@ -17,7 +17,7 @@ const Card = ({ header, footer, content, url, image }: CardProps) => {
           </p>
           <p className='text-md self-end text-primary font-medium'>{footer}</p>
           {url && (
-            <a href={url} target='_blank' rel='noreferrer' className='break-all'>
+            <a href={url} target='_blank' rel='noreferrer' className='break-all text-primary/75'>
               {url}
             </a>
           )}

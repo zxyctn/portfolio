@@ -30,7 +30,7 @@ const Search = ({ q, handleSubmit }: SearchProps) => {
               </span>
             </div>
           </div>
-          <hr className='stroke-primary border-primary -mx-10' />
+          <hr className='stroke-primary border-primary/50 -mx-10' />
 
           <div className='grid grid-flow-col-dense place-content-start h-full w-full'>
             <div className='xl:w-72 md:w-10 h-full'></div>

@@ -51,7 +51,7 @@ const Portfolio = () => {
         {active === 'overview' && <Overview />}
         {active === 'projects' && <Projects />}
       </div>
-      <hr className='border-primary w-full' />
+      <hr className='border-primary/50 w-full' />
       <About />
     </div>
   );
