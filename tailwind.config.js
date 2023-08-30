@@ -23,11 +23,11 @@ export default {
       },
       {
         dark: {
-          primary: '#3B4D8D',
-          secondary: '#DCE4FF',
+          primary: '#FFFFFF',
+          secondary: '#343434',
           accent: '#E137D0',
-          neutral: '#141724',
-          'base-100': '#000000',
+          neutral: '#1B1B1B',
+          'base-100': '#111111',
           info: '#3ABFF8',
           success: '#36D399',
           warning: '#FBBD23',
