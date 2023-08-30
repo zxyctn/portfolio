@@ -4,7 +4,7 @@ import type { SearchProps } from '../types';
 const SearchHeader = ({ q, handleSubmit }: SearchProps) => {
   return (
     <div className='flex gap-16 items-start p-10 px-20 h-full pb-0'>
-      <h1 className='font-bold text-center transform-all duration-1000 text-6xl md:text-4xl text-primary mt-1'>
+      <h1 className='font-bold text-center transform-all duration-1000 text-6xl md:text-4xl text-primary mt-1 logo'>
         Hello
       </h1>
       <div className='grid h-full'>

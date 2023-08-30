@@ -6,13 +6,13 @@ import Portfolio from './Portfolio';
 const Search = ({ q, handleSubmit }: SearchProps) => {
   return (
     <div className='relative'>
-      <div className=''>
-        <div className='items-start p-12 h-full pb-0'>
-          <div className='sm:flex'>
-            <h1 className='font-bold text-center transform-all duration-1000 text-4xl text-primary mt-1 pb-5 sm:pb-0'>
+      <div className='flex justify-center md:justify-start p-6 sm:p-10'>
+        <div className='items-start h-full w-full'>
+          <div className='sm:flex relative'>
+            <h1 className='font-bold text-center transform-all duration-1000 text-4xl text-primary mt-1 sm:pb-0 pb-5 xl:w-72 md:w-40 logo'>
               Hello
             </h1>
-            <div className='z-50 absolute sm:pl-40 flex justify-center sm:justify-start w-full sm:w-fit -ml-12 sm:m-0'>
+            <div className='flex z-50 absolute justify-center sm:justify-start w-full sm:w-fit sm:m-0 xl:pl-72 md:pl-40 sm:pl-32'>
               <SearchBar
                 hideButtons={true}
                 hideIcon={true}
@@ -22,12 +22,18 @@ const Search = ({ q, handleSubmit }: SearchProps) => {
             </div>
           </div>
 
-          <div className='grid h-full xl:pl-40 pt-10 sm:pt-0'>
-            <span className='border-b-4 border-primary text-2xl text-primary xl:pt-12 pt-8 w-min px-1 mt-1'>
-              All
-            </span>
-            <hr className='stroke-primary border-primary xl:-ml-52 -ml-12' />
+          <div className='grid h-full w-full pt-20 sm:pt-10'>
+            <div className='flex w-full'>
+              <div className='xl:w-72 md:w-10'></div>
+              <span className='border-b-4 border-primary text-2xl text-primary w-min px-1 mt-1'>
+                All
+              </span>
+            </div>
+          </div>
+          <hr className='stroke-primary border-primary -mx-10' />
 
+          <div className='grid grid-flow-col-dense place-content-start h-full w-full'>
+            <div className='xl:w-72 md:w-10 h-full'></div>
             <div className=''>
               {q !== 'Ibrahim Mammadov' ? (
                 <NotFound q={q!} handleSubmit={handleSubmit} />
