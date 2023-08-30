@@ -17,7 +17,10 @@ const Portfolio = () => {
   ];
 
   const clickHandler = (id: string) => {
-    setActive(id);
+    if (id === 'resume') {
+      window.open('https://', '_blank');
+      return;
+    } else setActive(id);
   };
 
   return (

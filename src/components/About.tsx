@@ -20,14 +20,21 @@ const About = () => {
           <div className='pt-8'>
             <h1 className='text-xl pb-5'>Profiles</h1>
             <div className='flex gap-8 items-end'>
-              <div className='grid gap-2 place-items-center'>
+              <a
+                href='https://www.linkedin.com/in/zxyctn/'
+                className='grid gap-2 place-items-center'
+              >
                 <Linkedin className='text-primary' size={42} />
                 <p className='text-sm'>LinkedIn</p>
-              </div>
-              <div className='grid gap-2 items place-items-center'>
+              </a>
+
+              <a
+                href='https://www.github.com/zxyctn'
+                className='grid gap-2 items place-items-center'
+              >
                 <Github className='text-primary' size={42} />
                 <p className='text-sm'>GitHub</p>
-              </div>
+              </a>
             </div>
           </div>
         </div>
