@@ -12,10 +12,19 @@ const App = () => {
     setSearch(q);
   };
 
+  const navigateToIndex = () => {
+    setPage('index');
+    setSearch('');
+  };
+
   return page === 'index' ? (
     <Index handleSubmit={handleSubmit} />
   ) : (
-    <Search q={search} handleSubmit={handleSubmit} />
+    <Search
+      q={search}
+      handleSubmit={handleSubmit}
+      navigateToIndex={navigateToIndex}
+    />
   );
 };
 

@@ -3,16 +3,19 @@ import NotFound from './NotFound';
 import type { SearchProps } from '../types';
 import Portfolio from './Portfolio';
 
-const Search = ({ q, handleSubmit }: SearchProps) => {
+const Search = ({ q, handleSubmit, navigateToIndex }: SearchProps) => {
   return (
     <div className='relative'>
       <div className='flex justify-center md:justify-start p-6 sm:p-10'>
         <div className='items-start h-full w-full'>
           <div className='sm:flex relative'>
-            <h1 className='font-bold text-center transform-all duration-1000 text-4xl text-primary mt-1 sm:pb-0 pb-5 xl:w-72 md:w-40 logo'>
+            <div
+              onClick={navigateToIndex}
+              className='font-bold z-50 cursor-pointer text-center transform-all duration-1000 text-4xl text-primary mt-1 sm:pb-0 pb-5 xl:w-72 md:w-40 logo'
+            >
               Hello
-            </h1>
-            <div className='flex z-50 absolute justify-center sm:justify-start w-full sm:w-fit sm:m-0 xl:pl-72 md:pl-40 sm:pl-32'>
+            </div>
+            <div className='flex z-40 absolute justify-center sm:justify-start w-full sm:w-fit sm:m-0 xl:pl-72 md:pl-40 sm:pl-32'>
               <SearchBar
                 hideButtons={true}
                 hideIcon={true}
@@ -30,7 +33,7 @@ const Search = ({ q, handleSubmit }: SearchProps) => {
               </span>
             </div>
           </div>
-          <hr className='stroke-primary border-primary/50 -mx-10' />
+          <hr className='stroke-primary border-primary/50 sm:-mx-10 -mx-6' />
 
           <div className='grid grid-flow-col-dense place-content-start h-full w-full'>
             <div className='xl:w-72 md:w-10 h-full'></div>
