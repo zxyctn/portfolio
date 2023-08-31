@@ -2,12 +2,14 @@ export type SearchBarProps = {
   hideIcon?: boolean;
   hideButtons?: boolean;
   handleSubmit: (q: string) => void;
+  handleLuck?: () => void;
   value: string;
 };
 
 export type SearchProps = {
   q?: string;
 	handleSubmit: (q: string) => void;
+	navigateToIndex?: () => void;
 };
 
 export type CardProps = {
