@@ -26,15 +26,15 @@ const Portfolio = () => {
   return (
     <div className='text-primary xl:max-w-[1200px]'>
       <p className='pt-5'>About 1 result</p>
-      <div className='sm:flex pt-5 gap-8 items-center'>
+      <div className='lg:flex pt-5 gap-8 items-center'>
         <div>
           <h1 className='h1 text-primary text-3xl whitespace-nowrap'>
             Ibrahim Mammadov
           </h1>
           <h4 className='text-sm'>Software Developer</h4>
         </div>
-        <div className='w-full relative py-5 sm:py-0'>
-          <div className='flex gap-3 overflow-auto no-scrollbar min-w-0 max-w-full absolute sm:-top-5'>
+        <div className='w-full relative py-5 lg:py-0'>
+          <div className='flex gap-3 overflow-auto no-scrollbar min-w-0 max-w-full absolute lg:-top-5'>
             {tabs.map((tab) => (
               <Tab
                 key={tab.id}

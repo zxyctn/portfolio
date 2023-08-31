@@ -1,6 +1,6 @@
 import { Linkedin, Github } from 'react-bootstrap-icons';
 
-import { LinkProps } from '../types';
+import type { LinkProps } from '../types';
 
 const Link = ({ href, text, platform }: LinkProps) => {
   return (

@@ -8,6 +8,7 @@ const SearchBar = ({
   value,
   hideIcon,
   handleSubmit,
+  handleLuck,
 }: SearchBarProps) => {
   const [search, setSearch] = useState(value);
   const [focus, setFocus] = useState(false);
@@ -34,7 +35,7 @@ const SearchBar = ({
       onFocus={() => setFocus(true)}
       onBlur={() => setFocus(false)}
     >
-      <div className='grid auto-rows-auto'>
+      <div className='grid auto-rows-auto px-4 md:px-0'>
         <input
           type='text'
           className={`input input-bordered w-full max-w-xs md:min-w-[500px] border-none focus:outline-none text-primary font-medium bg-transparent relative
@@ -85,7 +86,9 @@ const SearchBar = ({
             <button className='btn btn-secondary' onClick={handleSearch}>
               Search
             </button>
-            <button className='btn btn-secondary'>I'm feeling lucky</button>
+            <button className='btn btn-secondary' onClick={handleLuck}>
+              I'm feeling lucky
+            </button>
           </div>
         )}
       </div>
