@@ -4,6 +4,7 @@ import Tab from '../components/Tab';
 import Overview from '../components/Overview';
 import About from '../components/About';
 import Projects from '../components/Projects';
+import TechnicalSkills from '../components/TechnicalSkills';
 
 const Portfolio = () => {
   const [active, setActive] = useState('overview');
@@ -13,7 +14,6 @@ const Portfolio = () => {
     { name: 'Resume', id: 'resume' },
     { name: 'Projects', id: 'projects' },
     { name: 'Technical kills', id: 'technical-skills' },
-    { name: 'Other kills', id: 'other-skills' },
   ];
 
   const clickHandler = (id: string) => {
@@ -50,6 +50,7 @@ const Portfolio = () => {
       <div className='py-10 w-full'>
         {active === 'overview' && <Overview />}
         {active === 'projects' && <Projects />}
+        {active === 'technical-skills' && <TechnicalSkills />}
       </div>
       <hr className='border-primary/50 w-full' />
       <About />
