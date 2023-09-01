@@ -1,7 +1,8 @@
+import ThemeToggler from '../components/ThemeToggler';
 import SearchBar from '../components/SearchBar';
 import NotFound from './NotFound';
-import type { SearchProps } from '../types';
 import Portfolio from './Portfolio';
+import type { SearchProps } from '../types';
 
 const Search = ({ q, handleSubmit, navigateToIndex }: SearchProps) => {
   return (
@@ -28,9 +29,14 @@ const Search = ({ q, handleSubmit, navigateToIndex }: SearchProps) => {
           <div className='grid h-full w-full pt-20 sm:pt-10'>
             <div className='flex w-full'>
               <div className='xl:w-72 md:w-10'></div>
-              <span className='border-b-4 border-primary text-2xl text-primary w-min px-1 mt-1'>
-                All
-              </span>
+              <div className='flex justify-between grow'>
+                <span className='border-b-4 border-primary text-2xl text-primary w-min px-1 mt-1'>
+                  All
+                </span>
+                <span className='border-b-4 border-primary text-primary w-min px-2'>
+                  <ThemeToggler />
+                </span>
+              </div>
             </div>
           </div>
           <hr className='stroke-primary border-primary/50 sm:-mx-10 -mx-6' />

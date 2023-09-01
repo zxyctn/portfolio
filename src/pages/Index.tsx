@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Confetti from 'react-confetti';
 
+import ThemeToggler from '../components/ThemeToggler';
 import SearchBar from '../components/SearchBar';
 import type { SearchProps } from '../types';
 
@@ -35,6 +36,9 @@ const Index = ({ handleSubmit }: SearchProps) => {
           confetti!.reset();
         }}
       />
+      <div className='z-50 absolute top-5 right-5 text-primary'>
+        <ThemeToggler />
+      </div>
     </div>
   );
 };
