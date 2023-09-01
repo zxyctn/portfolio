@@ -8,8 +8,13 @@ export type SearchBarProps = {
 
 export type SearchProps = {
   q?: string;
-	handleSubmit: (q: string) => void;
-	navigateToIndex?: () => void;
+  handleSubmit: (q: string) => void;
+  navigateToIndex?: () => void;
+};
+
+export type Technology = {
+  name: string;
+  icon: JSX.Element;
 };
 
 export type CardProps = {
@@ -18,6 +23,7 @@ export type CardProps = {
   footer?: string;
   url?: string;
   image?: string;
+  technologies?: Technology[];
 };
 
 export type TabProps = {
@@ -31,4 +37,15 @@ export type LinkProps = {
   href: string;
   text: string;
   platform: string;
+};
+
+export type Skill = {
+  name: string;
+  value: number;
+  icon: JSX.Element;
+};
+
+export type SkillGroupProps = {
+  header: string;
+  skills: Skill[];
 };
