@@ -35,9 +35,9 @@ const Search = ({ q, handleSubmit, navigateToIndex }: SearchProps) => {
           </div>
           <hr className='stroke-primary border-primary/50 sm:-mx-10 -mx-6' />
 
-          <div className='grid grid-flow-col-dense place-content-start h-full w-full'>
+          <div className='flex h-full w-full'>
             <div className='xl:w-72 md:w-10 h-full'></div>
-            <div className=''>
+            <div className='grow'>
               {q !== 'Ibrahim Mammadov' ? (
                 <NotFound q={q!} handleSubmit={handleSubmit} />
               ) : (
