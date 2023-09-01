@@ -22,22 +22,22 @@ const TechnicalSkills = () => {
       skills: [
         {
           name: 'React',
-          value: 90,
+          value: 75,
           icon: <SiReact />,
         },
         {
           name: 'Svelte',
-          value: 80,
+          value: 90,
           icon: <SiSvelte />,
         },
         {
           name: 'SvelteKit',
-          value: 70,
+          value: 85,
           icon: <SiSvelte />,
         },
         {
           name: 'Django',
-          value: 90,
+          value: 65,
           icon: <SiDjango />,
         },
       ],
@@ -47,7 +47,7 @@ const TechnicalSkills = () => {
       skills: [
         {
           name: 'Python',
-          value: 90,
+          value: 85,
           icon: <SiPython />,
         },
         {
@@ -67,12 +67,12 @@ const TechnicalSkills = () => {
       skills: [
         {
           name: 'Linux',
-          value: 90,
+          value: 80,
           icon: <SiLinux />,
         },
         {
           name: 'Windows',
-          value: 90,
+          value: 95,
           icon: <SiWindows />,
         },
       ],
@@ -87,7 +87,7 @@ const TechnicalSkills = () => {
         },
         {
           name: 'Figma',
-          value: 90,
+          value: 60,
           icon: <SiFigma />,
         },
         {
@@ -97,7 +97,7 @@ const TechnicalSkills = () => {
         },
         {
           name: 'pytest',
-          value: 90,
+          value: 75,
           icon: <SiPytest />,
         },
       ],

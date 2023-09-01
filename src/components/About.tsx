@@ -1,4 +1,5 @@
 import { Github, Linkedin } from 'react-bootstrap-icons';
+
 import Link from './Link';
 
 const About = () => {
@@ -9,13 +10,12 @@ const About = () => {
         <div className='grid gap-5 md:pl-10 lg:pl-0'>
           <h1 className='text-3xl font-semibold'>About</h1>
           <p className='max-w-[500px] text-primary/75'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            A graduate student at Bauhaus University Weimar pursuing Master's
+            degree in Human Computer Interaction. Actively working with and
+            developing skills towards front-end development for web, desktop and
+            mobile platforms. Experienced with front-end, back-end and UI/UX
+            development. Always keeping in touch with latest technologies and
+            trying to be an early adopter.
           </p>
           <div className='pt-8'>
             <h1 className='text-xl pb-5'>Profiles</h1>
@@ -43,12 +43,12 @@ const About = () => {
         <Link
           href='https://www.github.com/zxyctn'
           platform='GitHub'
-          text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+          text='_tracker · wordle-clone · trellone · library · PhenObs · rendt · more repositories...'
         />
         <Link
           href='https://www.linkedin.com/in/zxyctn/'
           platform='LinkedIn'
-          text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+          text='Weimar, Thüringen, Deutschland · German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig'
         />
       </div>
     </div>
