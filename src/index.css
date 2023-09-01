@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply rounded-md normal-case text-lg;
+}
+
+.btn-secondary {
+  @apply text-primary-focus font-bold border-none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  font-family: Arial;
+}
+
+.logo {
+  font-family: 'Jost', sans-serif;
+}
