@@ -11,12 +11,19 @@ const Portfolio = () => {
 
   const tabs = [
     { name: 'Overview', id: 'overview' },
+    { name: 'Resume', id: 'resume' },
     { name: 'Projects', id: 'projects' },
     { name: 'Technical kills', id: 'technical-skills' },
   ];
 
   const clickHandler = (id: string) => {
-    setActive(id);
+    if (id === 'resume') {
+      window.open(
+        'https://drive.google.com/file/d/1QXShjfgnfvk1mP6gARd5gvhuaNsHj-Na/view?usp=sharing',
+        '_blank'
+      );
+      return;
+    } else setActive(id);
   };
 
   return (
