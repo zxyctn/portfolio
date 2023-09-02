@@ -35,8 +35,8 @@ const ThemeToggler = () => {
     <div className='flex justify-end items-end h-8'>
       <label className='swap swap-rotate w-6 h-6'>
         <input type='checkbox' checked={dark} onChange={handleChange} />
-        <LuSunMedium data-set-theme='light' className='swap-on w-6 h-6' />
-        <LuMoon data-set-theme='dark' className='swap-off w-6 h-6' />
+        <LuSunMedium data-set-theme='light' className='swap-off w-6 h-6' />
+        <LuMoon data-set-theme='dark' className='swap-on w-6 h-6' />
       </label>
     </div>
   );

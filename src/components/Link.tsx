@@ -15,11 +15,11 @@ const Link = ({ href, text, platform }: LinkProps) => {
         </a>
         <div className='grid'>
           <a href={href} className='text-xl'>{platform}</a>
-          <a href={href}>{href}</a>
+          <a href={href} className='text-sm sm:text-md'>{href}</a>
         </div>
       </div>
       <a href={href} className='text-xl my-auto'>zxyctn</a>
-      <p className='max-w-[500px] text-primary/75'>{text}</p>
+      <p className='max-w-[500px] min-w text-primary/75 text-md'>{text}</p>
     </div>
   );
 };
