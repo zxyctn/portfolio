@@ -5,4 +5,3 @@ Current implementation:
 - React
 - TailwindCSS
 - DaisyUI
-- Vite
