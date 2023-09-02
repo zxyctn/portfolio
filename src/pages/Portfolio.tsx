@@ -11,16 +11,12 @@ const Portfolio = () => {
 
   const tabs = [
     { name: 'Overview', id: 'overview' },
-    { name: 'Resume', id: 'resume' },
     { name: 'Projects', id: 'projects' },
     { name: 'Technical kills', id: 'technical-skills' },
   ];
 
   const clickHandler = (id: string) => {
-    if (id === 'resume') {
-      window.open('https://', '_blank');
-      return;
-    } else setActive(id);
+    setActive(id);
   };
 
   return (
