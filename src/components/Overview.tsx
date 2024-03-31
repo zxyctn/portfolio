@@ -1,4 +1,4 @@
-import Card from "./Card";
+import Card from './Card';
 
 const Overview = () => {
   return (
@@ -8,7 +8,7 @@ const Overview = () => {
       </div>
       <div className='grid min-w-min max-w-xl gap-5 grow lg:grow-0'>
         <div className='min-w-min max-w-xl h-[120px]'>
-          <Card header='Job' content='Full-stack developer' footer='iDiv' />
+          <Card header='Job' content='Software developer' footer='iDiv' />
         </div>
 
         <div className=' max-w-xl min-w-full h-[120px]'>

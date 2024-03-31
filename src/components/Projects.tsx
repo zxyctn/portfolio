@@ -5,12 +5,26 @@ import {
   SiRedux,
   SiBootstrap,
   SiTailwindcss,
+  SiRecoil,
+  SiSupabase,
 } from 'react-icons/si';
 
 import Card from './Card';
 
 const Projects = () => {
   const projects = [
+    {
+      header: 'prefixed',
+      content: 'Multiplayer game to test your dictionary',
+      url: 'https://github.com/zxyctn/prefixed',
+      technologies: [
+        { name: 'React', icon: <SiReact /> },
+        { name: 'Recoil', icon: <SiRecoil /> },
+        { name: 'Supabase', icon: <SiSupabase /> },
+        { name: 'Typescript', icon: <SiTypescript /> },
+        { name: 'TailwindCSS', icon: <SiTailwindcss /> },
+      ],
+    },
     {
       header: '_tracker',
       content: 'Progress tracker application for avid gym goers.',

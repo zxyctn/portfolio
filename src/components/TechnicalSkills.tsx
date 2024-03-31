@@ -8,9 +8,9 @@ import {
   SiLinux,
   SiWindows,
   SiGit,
-	SiFigma,
-	SiPlaywright,
-	SiPytest
+  SiFigma,
+  SiPlaywright,
+  SiPytest,
 } from 'react-icons/si';
 
 import SkillGroup from './SkillGroup';
@@ -22,7 +22,7 @@ const TechnicalSkills = () => {
       skills: [
         {
           name: 'React',
-          value: 75,
+          value: 85,
           icon: <SiReact />,
         },
         {
