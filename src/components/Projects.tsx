@@ -7,12 +7,27 @@ import {
   SiTailwindcss,
   SiRecoil,
   SiSupabase,
+  SiShadcnui,
+  SiMobx
 } from 'react-icons/si';
 
 import Card from './Card';
 
 const Projects = () => {
   const projects = [
+    {
+      header: 'Pavement App',
+      content: 'A mobile application for calculation of weight and length of asphalt pavement layers',
+      url: 'https://github.com/zxyctn/azvirt-reporter',
+      technologies: [
+        { name: 'React', icon: <SiReact /> },
+        { name: 'MobX', icon: <SiMobx /> },
+        { name: 'Supabase', icon: <SiSupabase /> },
+        { name: 'Typescript', icon: <SiTypescript /> },
+        { name: 'TailwindCSS', icon: <SiTailwindcss /> },
+        { name: 'shadcn/ui', icon: <SiShadcnui /> },
+      ],
+    },
     {
       header: 'prefixed',
       content: 'Multiplayer game to test your dictionary',
