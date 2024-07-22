@@ -19,7 +19,7 @@ const Portfolio = () => {
   const clickHandler = (id: string) => {
     if (id === 'resume') {
       window.open(
-        'https://drive.google.com/file/d/166TZrxZSva4fLBvMdGDr9FptXDzMoNuh/view?usp=sharing',
+        'https://drive.google.com/file/d/1aBFtw2LswoxrkwSMPN0RPhLR8igm29pD/view?usp=sharing',
         '_blank'
       );
       return;
