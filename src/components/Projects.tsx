@@ -8,24 +8,40 @@ import {
   SiRecoil,
   SiSupabase,
   SiShadcnui,
-  SiMobx
+  SiMobx,
+  SiNextdotjs,
+  SiSanity,
+  SiPrisma,
 } from 'react-icons/si';
 
 import Card from './Card';
+import { FaShield } from 'react-icons/fa6';
 
 const Projects = () => {
   const projects = [
     {
-      header: 'Pavement App',
-      content: 'A mobile application for calculation of weight and length of asphalt pavement layers',
-      url: 'https://github.com/zxyctn/azvirt-reporter',
+      header: 'nextjs-todos',
+      content: 'Kanban style todo app with NextJS, Prisma, NextAuth and Redux ',
+      url: 'https://github.com/zxyctn/nextjs-todos',
       technologies: [
-        { name: 'React', icon: <SiReact /> },
-        { name: 'MobX', icon: <SiMobx /> },
-        { name: 'Supabase', icon: <SiSupabase /> },
+        { name: 'Next.js', icon: <SiNextdotjs /> },
+        { name: 'Prisma', icon: <SiPrisma /> },
+        { name: 'NextAuth.js', icon: <FaShield /> },
+        { name: 'Redux', icon: <SiRedux /> },
         { name: 'Typescript', icon: <SiTypescript /> },
         { name: 'TailwindCSS', icon: <SiTailwindcss /> },
-        { name: 'shadcn/ui', icon: <SiShadcnui /> },
+        { name: 'shaodcn/ui', icon: <SiShadcnui /> },
+      ],
+    },
+    {
+      header: 'nextjs-blog',
+      content: 'A Simple Blog Example With NextJS and Sanity',
+      url: 'https://github.com/zxyctn/nextjs-blog',
+      technologies: [
+        { name: 'Next.js', icon: <SiNextdotjs /> },
+        { name: 'Sanity', icon: <SiSanity /> },
+        { name: 'Typescript', icon: <SiTypescript /> },
+        { name: 'TailwindCSS', icon: <SiTailwindcss /> },
       ],
     },
     {
@@ -79,37 +95,6 @@ const Projects = () => {
         { name: 'Svelte', icon: <SiSvelte /> },
         { name: 'Typescript', icon: <SiTypescript /> },
         { name: 'TailwindCSS', icon: <SiTailwindcss /> },
-      ],
-    },
-    {
-      header: 'skeleton-todo',
-      content: 'A todo app with SvelteKit and Skeleton UI',
-      url: 'https://github.com/zxyctn/skeleton-todo',
-      technologies: [
-        { name: 'SvelteKit', icon: <SiSvelte /> },
-        { name: 'Typescript', icon: <SiTypescript /> },
-        { name: 'TailwindCSS', icon: <SiTailwindcss /> },
-      ],
-    },
-    {
-      header: 'sveltekit-todo',
-      content: 'A todo app with SvelteKit and Sveltestrap',
-      url: 'https://github.com/zxyctn/sveltekit-todo',
-      technologies: [
-        { name: 'SvelteKit', icon: <SiSvelte /> },
-        { name: 'Typescript', icon: <SiTypescript /> },
-        { name: 'Bootstrap', icon: <SiBootstrap /> },
-      ],
-    },
-    {
-      header: 'svelte-datatable',
-      content:
-        'A datatable component for Svelte implemented with Svelte Headless Table and Sveltestrap',
-      url: 'https://github.com/zxyctn/svelte-datatable',
-      technologies: [
-        { name: 'Svelte', icon: <SiSvelte /> },
-        { name: 'Typescript', icon: <SiTypescript /> },
-        { name: 'Bootstrap', icon: <SiBootstrap /> },
       ],
     },
   ];

@@ -11,6 +11,7 @@ import {
   SiFigma,
   SiPlaywright,
   SiPytest,
+  SiNextdotjs,
 } from 'react-icons/si';
 
 import SkillGroup from './SkillGroup';
@@ -21,18 +22,23 @@ const TechnicalSkills = () => {
       name: 'Web development',
       skills: [
         {
+          name: 'Next.js',
+          value: 80,
+          icon: <SiNextdotjs />,
+        },
+        {
           name: 'React',
-          value: 85,
+          value: 90,
           icon: <SiReact />,
         },
         {
           name: 'Svelte',
-          value: 90,
+          value: 95,
           icon: <SiSvelte />,
         },
         {
           name: 'SvelteKit',
-          value: 85,
+          value: 98,
           icon: <SiSvelte />,
         },
         {

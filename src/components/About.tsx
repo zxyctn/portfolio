@@ -41,12 +41,12 @@ const About = () => {
         <Link
           href='https://www.github.com/zxyctn'
           platform='GitHub'
-          text='prefixed · _tracker · wordle-clone · trellone · PhenObs · more repositories...'
+          text='nextjs-todos · nextjs-blog · prefixed · _tracker · wordle-clone · more repositories...'
         />
         <Link
           href='https://www.linkedin.com/in/zxyctn/'
           platform='LinkedIn'
-          text='Weimar, Thüringen, Deutschland · German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig'
+          text='Kassel, Hessen, Deutschland · German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig'
         />
       </div>
     </div>
