@@ -28,7 +28,7 @@ const Projects = () => {
         { name: 'Redux', icon: <SiRedux /> },
         { name: 'Typescript', icon: <SiTypescript /> },
         { name: 'TailwindCSS', icon: <SiTailwindcss /> },
-        { name: 'shaodcn/ui', icon: <SiShadcnui /> },
+        { name: 'shadcn/ui', icon: <SiShadcnui /> },
       ],
     },
     {
